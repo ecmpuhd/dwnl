@@ -4,17 +4,10 @@
 	
 
 <head><link rel="stylesheet" type="text/css" href="main.css" ></head>
-< ?php 
-$file = file("count.txt");
-$count = implode("", $file);
-$count++;
-$myfile = fopen("count.txt","w");
-fputs($myfile,$count);
-fclose($myfile);
-?>
-<meta>
 
-<title></title>
+<meta name="robots" content="noindex, nofollow"/>
+
+<title>Прошивки для Эхомап</title>
 
 <body>
   <div id="container">
@@ -116,7 +109,6 @@ fclose($myfile);
   </div>
 
 
-<span>Просмотров: < ?=$count ?></span>
 </tbody>
 </table>
 </body>
