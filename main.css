@@ -44,7 +44,7 @@ a:hover {
 .table td{
 	padding: 5px 10px;
 	border: 1px solid #eee;
-	text-align: left;
+	text-align: center;
 }
 .table tbody tr:nth-child(odd){
 	background: #20b020;
