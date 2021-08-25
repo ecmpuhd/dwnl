@@ -38,6 +38,7 @@ a:hover {
 	font-weight: bold;
 	padding: 5px;
 	background: #efefef;
+	color: #115d11 !important; 
 	border: 1px solid #dddddd;
 }
 .table td{
@@ -46,10 +47,10 @@ a:hover {
 	text-align: left;
 }
 .table tbody tr:nth-child(odd){
-	background: #fff;
+	background: #20b020;
 }
 .table tbody tr:nth-child(even){
-	background: #F7F7F7;
+	background: #188518;
 }
 
 
