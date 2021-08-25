@@ -5,7 +5,12 @@ body {
   line-height: 1.4em;
   font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
   font-size: 15px;
-  }
+	  }
+a, a:visited, a b {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 #container {
     margin-left: auto;
