@@ -1,9 +1,17 @@
 <!DOCTYPE>
 
-<html></html>
+<html>
+	
 
 <head><link rel="stylesheet" type="text/css" href="main.css" ></head>
-
+< ?php 
+$file = file("count.txt");
+$count = implode("", $file);
+$count++;
+$myfile = fopen("count.txt","w");
+fputs($myfile,$count);
+fclose($myfile);
+?>
 <meta>
 
 <title></title>
@@ -107,15 +115,9 @@
 </table
   </div>
 
-< ?php 
-$file = file("count.txt");
-$count = implode("", $file);
-$count++;
-$myfile = fopen("count.txt","w");
-fputs($myfile,$count);
-fclose($myfile);
-?>
-<span>Просмотров: < ?=$count ?></span> // вывод счетчика
+
+<span>Просмотров: < ?=$count ?></span>
 </tbody>
 </table>
 </body>
+</html>
